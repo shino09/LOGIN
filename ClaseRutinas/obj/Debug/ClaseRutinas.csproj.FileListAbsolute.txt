@@ -1,0 +1,159 @@
+C:\Users\fisla\source\repos\WS_04002_Registrar_facturas\ClaseRutinas\bin\Debug\ClaseRutinas.dll
+C:\Users\fisla\source\repos\WS_04002_Registrar_facturas\ClaseRutinas\bin\Debug\ClaseRutinas.pdb
+C:\Users\fisla\source\repos\WS_04002_Registrar_facturas\ClaseRutinas\obj\Debug\ClaseRutinas.csprojAssemblyReference.cache
+C:\Users\fisla\source\repos\WS_04002_Registrar_facturas\ClaseRutinas\obj\Debug\ClaseRutinas.csproj.CoreCompileInputs.cache
+C:\Users\fisla\source\repos\WS_04002_Registrar_facturas\ClaseRutinas\obj\Debug\ClaseRutinas.dll
+C:\Users\fisla\source\repos\WS_04002_Registrar_facturas\ClaseRutinas\obj\Debug\ClaseRutinas.pdb
+E:\SVN\4.CAVALI\BRANCH\ClaseRutinas\bin\Debug\ClaseRutinas.dll
+E:\SVN\4.CAVALI\BRANCH\ClaseRutinas\bin\Debug\ClaseRutinas.pdb
+E:\SVN\4.CAVALI\BRANCH\ClaseRutinas\obj\Debug\ClaseRutinas.csproj.CoreCompileInputs.cache
+E:\SVN\4.CAVALI\BRANCH\ClaseRutinas\obj\Debug\ClaseRutinas.dll
+E:\SVN\4.CAVALI\BRANCH\ClaseRutinas\obj\Debug\ClaseRutinas.pdb
+E:\SVN\4.CAVALI\TRUNK 1\ClaseRutinas\bin\Debug\ClaseRutinas.dll
+E:\SVN\4.CAVALI\TRUNK 1\ClaseRutinas\bin\Debug\ClaseRutinas.pdb
+E:\SVN\4.CAVALI\TRUNK 1\ClaseRutinas\obj\Debug\ClaseRutinas.csprojAssemblyReference.cache
+E:\SVN\4.CAVALI\TRUNK 1\ClaseRutinas\obj\Debug\ClaseRutinas.csproj.CoreCompileInputs.cache
+E:\SVN\4.CAVALI\TRUNK 1\ClaseRutinas\obj\Debug\ClaseRutinas.dll
+E:\SVN\4.CAVALI\TRUNK 1\ClaseRutinas\obj\Debug\ClaseRutinas.pdb
+E:\SVN\4.CAVALI\TRUNK 99\ClaseRutinas\bin\Debug\ClaseRutinas.dll
+E:\SVN\4.CAVALI\TRUNK 99\ClaseRutinas\bin\Debug\ClaseRutinas.pdb
+E:\SVN\4.CAVALI\TRUNK 99\ClaseRutinas\obj\Debug\ClaseRutinas.csprojAssemblyReference.cache
+E:\SVN\4.CAVALI\TRUNK 99\ClaseRutinas\obj\Debug\ClaseRutinas.csproj.CoreCompileInputs.cache
+E:\SVN\4.CAVALI\TRUNK 99\ClaseRutinas\obj\Debug\ClaseRutinas.dll
+E:\SVN\4.CAVALI\TRUNK 99\ClaseRutinas\obj\Debug\ClaseRutinas.pdb
+E:\SVN\4.CAVALI\BRANCH 12\ClaseRutinas\bin\Debug\ClaseRutinas.dll
+E:\SVN\4.CAVALI\BRANCH 12\ClaseRutinas\bin\Debug\ClaseRutinas.pdb
+E:\SVN\4.CAVALI\BRANCH 12\ClaseRutinas\obj\Debug\ClaseRutinas.csproj.CoreCompileInputs.cache
+E:\SVN\4.CAVALI\BRANCH 12\ClaseRutinas\obj\Debug\ClaseRutinas.dll
+E:\SVN\4.CAVALI\BRANCH 12\ClaseRutinas\obj\Debug\ClaseRutinas.pdb
+E:\SVN\4.CAVALI\BRANCH 15\ClaseRutinas\bin\Debug\ClaseRutinas.dll
+E:\SVN\4.CAVALI\BRANCH 15\ClaseRutinas\bin\Debug\ClaseRutinas.pdb
+E:\SVN\4.CAVALI\BRANCH 15\ClaseRutinas\obj\Debug\ClaseRutinas.csprojAssemblyReference.cache
+E:\SVN\4.CAVALI\BRANCH 15\ClaseRutinas\obj\Debug\ClaseRutinas.csproj.CoreCompileInputs.cache
+E:\SVN\4.CAVALI\BRANCH 15\ClaseRutinas\obj\Debug\ClaseRutinas.dll
+E:\SVN\4.CAVALI\BRANCH 15\ClaseRutinas\obj\Debug\ClaseRutinas.pdb
+E:\SVN\4.CAVALI\TRUNK 14\ClaseRutinas\bin\Debug\ClaseRutinas.dll
+E:\SVN\4.CAVALI\TRUNK 14\ClaseRutinas\bin\Debug\ClaseRutinas.pdb
+E:\SVN\4.CAVALI\TRUNK 14\ClaseRutinas\obj\Debug\ClaseRutinas.csprojAssemblyReference.cache
+E:\SVN\4.CAVALI\TRUNK 14\ClaseRutinas\obj\Debug\ClaseRutinas.csproj.CoreCompileInputs.cache
+E:\SVN\4.CAVALI\TRUNK 14\ClaseRutinas\obj\Debug\ClaseRutinas.dll
+E:\SVN\4.CAVALI\TRUNK 14\ClaseRutinas\obj\Debug\ClaseRutinas.pdb
+E:\SVN\4.CAVALI\04002\branch 18\ClaseRutinas\bin\Debug\ClaseRutinas.dll
+E:\SVN\4.CAVALI\04002\branch 18\ClaseRutinas\bin\Debug\ClaseRutinas.pdb
+E:\SVN\4.CAVALI\04002\branch 18\ClaseRutinas\obj\Debug\ClaseRutinas.csproj.CoreCompileInputs.cache
+E:\SVN\4.CAVALI\04002\branch 18\ClaseRutinas\obj\Debug\ClaseRutinas.dll
+E:\SVN\4.CAVALI\04002\branch 18\ClaseRutinas\obj\Debug\ClaseRutinas.pdb
+E:\SVN\4.CAVALI\04002\TRUNK 17\ClaseRutinas\bin\Debug\ClaseRutinas.dll
+E:\SVN\4.CAVALI\04002\TRUNK 17\ClaseRutinas\bin\Debug\ClaseRutinas.pdb
+E:\SVN\4.CAVALI\04002\TRUNK 17\ClaseRutinas\obj\Debug\ClaseRutinas.csprojAssemblyReference.cache
+E:\SVN\4.CAVALI\04002\TRUNK 17\ClaseRutinas\obj\Debug\ClaseRutinas.csproj.CoreCompileInputs.cache
+E:\SVN\4.CAVALI\04002\TRUNK 17\ClaseRutinas\obj\Debug\ClaseRutinas.dll
+E:\SVN\4.CAVALI\04002\TRUNK 17\ClaseRutinas\obj\Debug\ClaseRutinas.pdb
+I:\0.-Proyecto Cesion Electronica FT Capital\Fuentes\WS_CUBO\SVN\SVN 21\ClaseRutinas\bin\Debug\ClaseRutinas.dll
+I:\0.-Proyecto Cesion Electronica FT Capital\Fuentes\WS_CUBO\SVN\SVN 21\ClaseRutinas\bin\Debug\ClaseRutinas.pdb
+I:\0.-Proyecto Cesion Electronica FT Capital\Fuentes\WS_CUBO\SVN\SVN 21\ClaseRutinas\obj\Debug\ClaseRutinas.csprojAssemblyReference.cache
+I:\0.-Proyecto Cesion Electronica FT Capital\Fuentes\WS_CUBO\SVN\SVN 21\ClaseRutinas\obj\Debug\ClaseRutinas.csproj.CoreCompileInputs.cache
+I:\0.-Proyecto Cesion Electronica FT Capital\Fuentes\WS_CUBO\SVN\SVN 21\ClaseRutinas\obj\Debug\ClaseRutinas.dll
+I:\0.-Proyecto Cesion Electronica FT Capital\Fuentes\WS_CUBO\SVN\SVN 21\ClaseRutinas\obj\Debug\ClaseRutinas.pdb
+I:\0.-Proyecto Cesion Electronica FT Capital\Fuentes\WS_CUBO\WS_04002\SVN\SVN 26\ClaseRutinas\bin\Debug\ClaseRutinas.dll
+I:\0.-Proyecto Cesion Electronica FT Capital\Fuentes\WS_CUBO\WS_04002\SVN\SVN 26\ClaseRutinas\bin\Debug\ClaseRutinas.pdb
+I:\0.-Proyecto Cesion Electronica FT Capital\Fuentes\WS_CUBO\WS_04002\SVN\SVN 26\ClaseRutinas\obj\Debug\ClaseRutinas.csproj.CoreCompileInputs.cache
+I:\0.-Proyecto Cesion Electronica FT Capital\Fuentes\WS_CUBO\WS_04002\SVN\SVN 26\ClaseRutinas\obj\Debug\ClaseRutinas.dll
+I:\0.-Proyecto Cesion Electronica FT Capital\Fuentes\WS_CUBO\WS_04002\SVN\SVN 26\ClaseRutinas\obj\Debug\ClaseRutinas.pdb
+I:\0.-Proyecto Cesion Electronica FT Capital\Fuentes\WS_CUBO\WS_04002\Trunck\ClaseRutinas\bin\Debug\ClaseRutinas.dll
+I:\0.-Proyecto Cesion Electronica FT Capital\Fuentes\WS_CUBO\WS_04002\Trunck\ClaseRutinas\bin\Debug\ClaseRutinas.pdb
+I:\0.-Proyecto Cesion Electronica FT Capital\Fuentes\WS_CUBO\WS_04002\Trunck\ClaseRutinas\obj\Debug\ClaseRutinas.csproj.CoreCompileInputs.cache
+I:\0.-Proyecto Cesion Electronica FT Capital\Fuentes\WS_CUBO\WS_04002\Trunck\ClaseRutinas\obj\Debug\ClaseRutinas.dll
+I:\0.-Proyecto Cesion Electronica FT Capital\Fuentes\WS_CUBO\WS_04002\Trunck\ClaseRutinas\obj\Debug\ClaseRutinas.pdb
+E:\SVN\4.CAVALI\04002\BRANCH 34\ClaseRutinas\bin\Debug\ClaseRutinas.dll
+E:\SVN\4.CAVALI\04002\BRANCH 34\ClaseRutinas\bin\Debug\ClaseRutinas.pdb
+E:\SVN\4.CAVALI\04002\BRANCH 34\ClaseRutinas\obj\Debug\ClaseRutinas.csproj.CoreCompileInputs.cache
+E:\SVN\4.CAVALI\04002\BRANCH 34\ClaseRutinas\obj\Debug\ClaseRutinas.dll
+E:\SVN\4.CAVALI\04002\BRANCH 34\ClaseRutinas\obj\Debug\ClaseRutinas.pdb
+E:\SVN\4.CAVALI\04002\TRUNK 33\ClaseRutinas\bin\Debug\ClaseRutinas.dll
+E:\SVN\4.CAVALI\04002\TRUNK 33\ClaseRutinas\bin\Debug\ClaseRutinas.pdb
+E:\SVN\4.CAVALI\04002\TRUNK 33\ClaseRutinas\obj\Debug\ClaseRutinas.csproj.CoreCompileInputs.cache
+E:\SVN\4.CAVALI\04002\TRUNK 33\ClaseRutinas\obj\Debug\ClaseRutinas.dll
+E:\SVN\4.CAVALI\04002\TRUNK 33\ClaseRutinas\obj\Debug\ClaseRutinas.pdb
+E:\SVN\4.CAVALI\04002\TRUNK 42\ClaseRutinas\bin\Debug\ClaseRutinas.dll
+E:\SVN\4.CAVALI\04002\TRUNK 42\ClaseRutinas\bin\Debug\ClaseRutinas.pdb
+E:\SVN\4.CAVALI\04002\TRUNK 42\ClaseRutinas\obj\Debug\ClaseRutinas.csproj.CoreCompileInputs.cache
+E:\SVN\4.CAVALI\04002\TRUNK 42\ClaseRutinas\obj\Debug\ClaseRutinas.dll
+E:\SVN\4.CAVALI\04002\TRUNK 42\ClaseRutinas\obj\Debug\ClaseRutinas.pdb
+C:\Users\storres\Desktop\FuentesService\web04002\ClaseRutinas\bin\Debug\ClaseRutinas.dll
+C:\Users\storres\Desktop\FuentesService\web04002\ClaseRutinas\bin\Debug\ClaseRutinas.pdb
+C:\Users\storres\Desktop\FuentesService\web04002\ClaseRutinas\obj\Debug\ClaseRutinas.csproj.CoreCompileInputs.cache
+C:\Users\storres\Desktop\FuentesService\web04002\ClaseRutinas\obj\Debug\ClaseRutinas.dll
+C:\Users\storres\Desktop\FuentesService\web04002\ClaseRutinas\obj\Debug\ClaseRutinas.pdb
+E:\SVN\4.CAVALI\04002\TRUNK 52\ClaseRutinas\bin\Debug\ClaseRutinas.dll
+E:\SVN\4.CAVALI\04002\TRUNK 52\ClaseRutinas\bin\Debug\ClaseRutinas.pdb
+E:\SVN\4.CAVALI\04002\TRUNK 52\ClaseRutinas\obj\Debug\ClaseRutinas.csprojAssemblyReference.cache
+E:\SVN\4.CAVALI\04002\TRUNK 52\ClaseRutinas\obj\Debug\ClaseRutinas.csproj.CoreCompileInputs.cache
+E:\SVN\4.CAVALI\04002\TRUNK 52\ClaseRutinas\obj\Debug\ClaseRutinas.dll
+E:\SVN\4.CAVALI\04002\TRUNK 52\ClaseRutinas\obj\Debug\ClaseRutinas.pdb
+E:\SVN\4.CAVALI\04002\TRUNK 58\ClaseRutinas\bin\Debug\ClaseRutinas.dll
+E:\SVN\4.CAVALI\04002\TRUNK 58\ClaseRutinas\bin\Debug\ClaseRutinas.pdb
+E:\SVN\4.CAVALI\04002\TRUNK 58\ClaseRutinas\obj\Debug\ClaseRutinas.csproj.CoreCompileInputs.cache
+E:\SVN\4.CAVALI\04002\TRUNK 58\ClaseRutinas\obj\Debug\ClaseRutinas.dll
+E:\SVN\4.CAVALI\04002\TRUNK 58\ClaseRutinas\obj\Debug\ClaseRutinas.pdb
+E:\SVN\4.CAVALI\04002\BRANCH\ClaseRutinas\bin\Debug\ClaseRutinas.dll
+E:\SVN\4.CAVALI\04002\BRANCH\ClaseRutinas\bin\Debug\ClaseRutinas.pdb
+E:\SVN\4.CAVALI\04002\BRANCH\ClaseRutinas\obj\Debug\ClaseRutinas.csproj.CoreCompileInputs.cache
+E:\SVN\4.CAVALI\04002\BRANCH\ClaseRutinas\obj\Debug\ClaseRutinas.dll
+E:\SVN\4.CAVALI\04002\BRANCH\ClaseRutinas\obj\Debug\ClaseRutinas.pdb
+E:\SVN\4.CAVALI\04002\TRUNK\ClaseRutinas\bin\Debug\ClaseRutinas.dll
+E:\SVN\4.CAVALI\04002\TRUNK\ClaseRutinas\bin\Debug\ClaseRutinas.pdb
+E:\SVN\4.CAVALI\04002\TRUNK\ClaseRutinas\obj\Debug\ClaseRutinas.csproj.CoreCompileInputs.cache
+E:\SVN\4.CAVALI\04002\TRUNK\ClaseRutinas\obj\Debug\ClaseRutinas.dll
+E:\SVN\4.CAVALI\04002\TRUNK\ClaseRutinas\obj\Debug\ClaseRutinas.pdb
+F:\0.-Proyecto Cesion Electronica FT Capital\Fuentes\WS_CUBO\WS_04002\SVN\SVN 68\ClaseRutinas\bin\Debug\ClaseRutinas.dll
+F:\0.-Proyecto Cesion Electronica FT Capital\Fuentes\WS_CUBO\WS_04002\SVN\SVN 68\ClaseRutinas\bin\Debug\ClaseRutinas.pdb
+F:\0.-Proyecto Cesion Electronica FT Capital\Fuentes\WS_CUBO\WS_04002\SVN\SVN 68\ClaseRutinas\obj\Debug\ClaseRutinas.csproj.CoreCompileInputs.cache
+F:\0.-Proyecto Cesion Electronica FT Capital\Fuentes\WS_CUBO\WS_04002\SVN\SVN 68\ClaseRutinas\obj\Debug\ClaseRutinas.dll
+F:\0.-Proyecto Cesion Electronica FT Capital\Fuentes\WS_CUBO\WS_04002\SVN\SVN 68\ClaseRutinas\obj\Debug\ClaseRutinas.pdb
+F:\0.-Proyecto Cesion Electronica FT Capital\Fuentes\WS_CUBO\WS_04002\Trunck\ClaseRutinas\bin\Debug\ClaseRutinas.dll
+F:\0.-Proyecto Cesion Electronica FT Capital\Fuentes\WS_CUBO\WS_04002\Trunck\ClaseRutinas\bin\Debug\ClaseRutinas.pdb
+F:\0.-Proyecto Cesion Electronica FT Capital\Fuentes\WS_CUBO\WS_04002\Trunck\ClaseRutinas\obj\Debug\ClaseRutinas.csprojAssemblyReference.cache
+F:\0.-Proyecto Cesion Electronica FT Capital\Fuentes\WS_CUBO\WS_04002\Trunck\ClaseRutinas\obj\Debug\ClaseRutinas.csproj.CoreCompileInputs.cache
+F:\0.-Proyecto Cesion Electronica FT Capital\Fuentes\WS_CUBO\WS_04002\Trunck\ClaseRutinas\obj\Debug\ClaseRutinas.dll
+F:\0.-Proyecto Cesion Electronica FT Capital\Fuentes\WS_CUBO\WS_04002\Trunck\ClaseRutinas\obj\Debug\ClaseRutinas.pdb
+E:\SVN\4.CAVALI\1.CUBO\04002\BRANCH ----- 74\ClaseRutinas\bin\Debug\ClaseRutinas.dll
+E:\SVN\4.CAVALI\1.CUBO\04002\BRANCH ----- 74\ClaseRutinas\bin\Debug\ClaseRutinas.pdb
+E:\SVN\4.CAVALI\1.CUBO\04002\BRANCH ----- 74\ClaseRutinas\obj\Debug\ClaseRutinas.csprojAssemblyReference.cache
+E:\SVN\4.CAVALI\1.CUBO\04002\BRANCH ----- 74\ClaseRutinas\obj\Debug\ClaseRutinas.csproj.CoreCompileInputs.cache
+E:\SVN\4.CAVALI\1.CUBO\04002\BRANCH ----- 74\ClaseRutinas\obj\Debug\ClaseRutinas.dll
+E:\SVN\4.CAVALI\1.CUBO\04002\BRANCH ----- 74\ClaseRutinas\obj\Debug\ClaseRutinas.pdb
+E:\SVN\4.CAVALI\1.CUBO\04002\TRUNK\ClaseRutinas\bin\Debug\ClaseRutinas.dll
+E:\SVN\4.CAVALI\1.CUBO\04002\TRUNK\ClaseRutinas\bin\Debug\ClaseRutinas.pdb
+E:\SVN\4.CAVALI\1.CUBO\04002\TRUNK\ClaseRutinas\obj\Debug\ClaseRutinas.csprojAssemblyReference.cache
+E:\SVN\4.CAVALI\1.CUBO\04002\TRUNK\ClaseRutinas\obj\Debug\ClaseRutinas.csproj.CoreCompileInputs.cache
+E:\SVN\4.CAVALI\1.CUBO\04002\TRUNK\ClaseRutinas\obj\Debug\ClaseRutinas.dll
+E:\SVN\4.CAVALI\1.CUBO\04002\TRUNK\ClaseRutinas\obj\Debug\ClaseRutinas.pdb
+E:\SVN\4.CAVALI\1.CUBO\04002\TRUNK 77\ClaseRutinas\bin\Debug\ClaseRutinas.dll
+E:\SVN\4.CAVALI\1.CUBO\04002\TRUNK 77\ClaseRutinas\bin\Debug\ClaseRutinas.pdb
+E:\SVN\4.CAVALI\1.CUBO\04002\TRUNK 77\ClaseRutinas\obj\Debug\ClaseRutinas.csproj.CoreCompileInputs.cache
+E:\SVN\4.CAVALI\1.CUBO\04002\TRUNK 77\ClaseRutinas\obj\Debug\ClaseRutinas.dll
+E:\SVN\4.CAVALI\1.CUBO\04002\TRUNK 77\ClaseRutinas\obj\Debug\ClaseRutinas.pdb
+E:\SVN\4.CAVALI\1.CUBO\04002\BRANCH\ClaseRutinas\bin\Debug\ClaseRutinas.dll
+E:\SVN\4.CAVALI\1.CUBO\04002\BRANCH\ClaseRutinas\bin\Debug\ClaseRutinas.pdb
+E:\SVN\4.CAVALI\1.CUBO\04002\BRANCH\ClaseRutinas\obj\Debug\ClaseRutinas.csproj.CoreCompileInputs.cache
+E:\SVN\4.CAVALI\1.CUBO\04002\BRANCH\ClaseRutinas\obj\Debug\ClaseRutinas.dll
+E:\SVN\4.CAVALI\1.CUBO\04002\BRANCH\ClaseRutinas\obj\Debug\ClaseRutinas.pdb
+E:\SVN\4.CAVALI\1.CUBO\04002\TRUNK 80\ClaseRutinas\bin\Debug\ClaseRutinas.dll
+E:\SVN\4.CAVALI\1.CUBO\04002\TRUNK 80\ClaseRutinas\bin\Debug\ClaseRutinas.pdb
+E:\SVN\4.CAVALI\1.CUBO\04002\TRUNK 80\ClaseRutinas\obj\Debug\ClaseRutinas.csprojAssemblyReference.cache
+E:\SVN\4.CAVALI\1.CUBO\04002\TRUNK 80\ClaseRutinas\obj\Debug\ClaseRutinas.csproj.CoreCompileInputs.cache
+E:\SVN\4.CAVALI\1.CUBO\04002\TRUNK 80\ClaseRutinas\obj\Debug\ClaseRutinas.dll
+E:\SVN\4.CAVALI\1.CUBO\04002\TRUNK 80\ClaseRutinas\obj\Debug\ClaseRutinas.pdb
+D:\DIMENSIONLOCAL\TRABAJOCASA\0.-WEBCLIENTE\WS4002\ClaseRutinas\bin\Debug\ClaseRutinas.dll
+D:\DIMENSIONLOCAL\TRABAJOCASA\0.-WEBCLIENTE\WS4002\ClaseRutinas\bin\Debug\ClaseRutinas.pdb
+D:\DIMENSIONLOCAL\TRABAJOCASA\0.-WEBCLIENTE\WS4002\ClaseRutinas\obj\Debug\ClaseRutinas.csprojAssemblyReference.cache
+D:\DIMENSIONLOCAL\TRABAJOCASA\0.-WEBCLIENTE\WS4002\ClaseRutinas\obj\Debug\ClaseRutinas.csproj.CoreCompileInputs.cache
+D:\DIMENSIONLOCAL\TRABAJOCASA\0.-WEBCLIENTE\WS4002\ClaseRutinas\obj\Debug\ClaseRutinas.dll
+D:\DIMENSIONLOCAL\TRABAJOCASA\0.-WEBCLIENTE\WS4002\ClaseRutinas\obj\Debug\ClaseRutinas.pdb
+D:\DIMENSIONLOCAL\TRABAJOCASA\Login\CODIGO\WS_Acceso\ClaseRutinas\bin\Debug\ClaseRutinas.dll
+D:\DIMENSIONLOCAL\TRABAJOCASA\Login\CODIGO\WS_Acceso\ClaseRutinas\bin\Debug\ClaseRutinas.pdb
+D:\DIMENSIONLOCAL\TRABAJOCASA\Login\CODIGO\WS_Acceso\ClaseRutinas\obj\Debug\ClaseRutinas.csprojAssemblyReference.cache
+D:\DIMENSIONLOCAL\TRABAJOCASA\Login\CODIGO\WS_Acceso\ClaseRutinas\obj\Debug\ClaseRutinas.csproj.CoreCompileInputs.cache
+D:\DIMENSIONLOCAL\TRABAJOCASA\Login\CODIGO\WS_Acceso\ClaseRutinas\obj\Debug\ClaseRutinas.dll
+D:\DIMENSIONLOCAL\TRABAJOCASA\Login\CODIGO\WS_Acceso\ClaseRutinas\obj\Debug\ClaseRutinas.pdb

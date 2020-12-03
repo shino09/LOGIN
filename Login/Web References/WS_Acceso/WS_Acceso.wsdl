@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://cesion.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:s1="http://cavali.com.pe/ib/esb" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:s2="http://cavali.com.pe/ib/esb/srv04001" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://cesion.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://cesion.org/">
+      <s:import namespace="http://cavali.com.pe/ib/esb" />
+      <s:import namespace="http://cavali.com.pe/ib/esb/srv04001" />
+      <s:element name="BuscarCliente">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="cabecera" type="s1:CABECERA_Type" />
+            <s:element minOccurs="0" maxOccurs="1" name="datosWC" type="s2:DATOS_Type" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BuscarClienteResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="BuscarClienteResult" type="s2:MENSAJERES_Type" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://cavali.com.pe/ib/esb">
+      <s:complexType name="CABECERA_Type">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" form="unqualified" name="APP_CONSUMIDORA" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="CABECERARes_Type">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" form="unqualified" name="APP_CONSUMIDORA" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" form="unqualified" name="COD_RESPUESTA" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" form="unqualified" name="DES_RESPUESTA" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+    </s:schema>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://cavali.com.pe/ib/esb/srv04001">
+      <s:import namespace="http://cavali.com.pe/ib/esb" />
+      <s:complexType name="DATOS_Type">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" form="unqualified" name="Dominio" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="MENSAJERES_Type">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" form="unqualified" name="INTEGRES" type="s2:INTEGRACIONRES_Type" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="INTEGRACIONRES_Type">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" form="unqualified" name="CABECERA" type="s1:CABECERARes_Type" />
+          <s:element minOccurs="0" maxOccurs="1" form="unqualified" name="DETALLE" type="s2:DETALLERes_Type" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="DETALLERes_Type">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" form="unqualified" name="DATOS" type="s2:DATOSRes_Type" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="DATOSRes_Type">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" form="unqualified" name="Cliente_Ruc" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" form="unqualified" name="Cliente_Cod_Part" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" form="unqualified" name="EndPoint_Cli_Cone_xion" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="BuscarClienteSoapIn">
+    <wsdl:part name="parameters" element="tns:BuscarCliente" />
+  </wsdl:message>
+  <wsdl:message name="BuscarClienteSoapOut">
+    <wsdl:part name="parameters" element="tns:BuscarClienteResponse" />
+  </wsdl:message>
+  <wsdl:portType name="WS_AccesoSoap">
+    <wsdl:operation name="BuscarCliente">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Buscar Cliente</wsdl:documentation>
+      <wsdl:input message="tns:BuscarClienteSoapIn" />
+      <wsdl:output message="tns:BuscarClienteSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WS_AccesoSoap" type="tns:WS_AccesoSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="BuscarCliente">
+      <soap:operation soapAction="http://cesion.org/BuscarCliente" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WS_AccesoSoap12" type="tns:WS_AccesoSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="BuscarCliente">
+      <soap12:operation soapAction="http://cesion.org/BuscarCliente" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WS_Acceso">
+    <wsdl:port name="WS_AccesoSoap" binding="tns:WS_AccesoSoap">
+      <soap:address location="http://localhost:57100/WS_Acceso.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WS_AccesoSoap12" binding="tns:WS_AccesoSoap12">
+      <soap12:address location="http://localhost:57100/WS_Acceso.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,118 @@
+﻿<!doctype html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Web Cliente</title>
+    <!-- Bootstrap -->
+    <link href="../Content/css/bootstrap-4.3.1.css" rel="stylesheet">
+    <link href="../Content/css/estilos_.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="../Content/images/logotipo demension_ 1.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <form class="form-inline my-2 my-lg-0 ml-auto">
+                    <span> <img class="mr-3 d-inline-block" src="../Content/open-iconic-master/svg/person.svg" alt="icon name" style="width:24px;height:24px; "> </span>
+                    <!--<button type="button" class="btn btn-primary">Usuario</button>-->
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                            @Session["username"]
+                        </button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="@Url.Action("Logout", "Inicio")">Salir</a>
+
+                        </div>
+                    </div>
+            </div>
+            </form>
+        </div>
+        </div>
+    </nav>
+ 
+    <div class="container mt-5 border rounded shadow-sm mt-md-5">
+        <div class="row  bg-white">
+
+            @RenderBody()
+            <section class="col-md-8 bg-white mt-4">
+                <div class="connecting-line"></div>
+                <ul class="nav nav-tabs flex-nowrap " role="tablist" id="stepProgressBar">
+                    <li role="presentation" class="nav-item"> <a href="#" class="nav-link disabled" data-toggle="tab" aria-controls="step1" role="tab" title="paso 1"> 1 </a> </li>
+                    <li role="presentation" class="nav-item"> <a href="#" class="nav-link disabled" data-toggle="tab" aria-controls="step2" role="tab" title="paso 2"> 2 </a> </li>
+                    <li role="presentation" class="nav-item"> <a href="#" class="nav-link disabled" data-toggle="tab" aria-controls="step3" role="tab" title="paso 3"> 3 </a> </li>
+                    <li role="presentation" class="nav-item"> <a href="#" class="nav-link disabled" data-toggle="tab" aria-controls="complete" role="tab" title="paso 4"> 4 </a> </li>
+                </ul>
+                <form role="form">
+                    <!--contenedor1-->
+                    <div class="tab-content py-2">
+                        <div class="tab-pane active" role="tabpanel" id="step1">
+
+
+                            <div class="col-md-8 col-lg-12">
+
+                                <img class="img-fluid mb-4" src="../Content/images/82.png">
+
+                                <!--<div class="tab-pane" role="tabpanel" id="complete">
+                          <h5></h5>
+                        </div>-->
+                                <div class="clearfix"></div>
+                            </div>
+                            <!--fin-contenedor4-->
+                </form>
+            </section>
+        </div>
+    </div>
+    <footer class="text-center fixed-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <p>Copyright © <img src="../Content/images/logo-dimension_p.png" style="width: 10%"></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--________________________________________________________________________
+        ________________________________________________________________________-->
+
+    <script src="../Scripts/js/jquery-3.3.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../Scripts/js/popper.min.js"></script>
+    <script src="../Scripts/js/bootstrap-4.3.1.js"></script>
+    <script>
+        $(document).ready(function () {
+            //Initialize tooltips
+            $('.nav-tabs > li a[title]').tooltip();
+
+            //Wizard
+            $('a[data-toggle="tab"]').on('show.bs.tab', function (e) {
+                var $target = $(e.target);
+                if ($target.parent().hasClass('disabled')) {
+                    return false;
+                }
+            });
+
+            $(".next-step").click(function (e) {
+                var $active = $('.nav-tabs li>.active');
+                $active.parent().next().find('.nav-link').removeClass('disabled');
+                nextTab($active);
+            });
+
+            $(".prev-step").click(function (e) {
+                var $active = $('.nav-tabs li>a.active');
+                prevTab($active);
+            });
+        });
+
+        function nextTab(elem) {
+            $(elem).parent().next().find('a[data-toggle="tab"]').click();
+        }
+        function prevTab(elem) {
+            $(elem).parent().prev().find('a[data-toggle="tab"]').click();
+        }
+    </script>
+</body>
+</html>

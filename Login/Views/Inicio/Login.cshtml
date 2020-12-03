@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+@using Login.Models
+@model Login.Models.LoginViewModel
+@{
+    Layout = null;
+}
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LOGIN</title>
+    <!-- Bootstrap -->
+    <link href="../Content/css/bootstrap-4.3.1.css" rel="stylesheet">
+    <link href="../Content/css/estilos_.css" rel="stylesheet">
+</head>
+<body class="bg-info">
+    <div class="modal" id="myModal" @*style="display:block"*@ tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div id="modal_header" runat="server" class="alert alert-danger">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title" id="myModalLabel">Acceso a credenciales</h4>
+                </div>
+                <div class="modal-body">
+                    <asp:Label ID="labelMessage" runat="server" class="mensajes" />
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <div class="container mt-5">
+        <div class="container login-container" style="margin-top: 250px">
+            <div class="row justify-content-center w-auto">
+                <div class="col-md-4 login-form-1" style="background-color:#FFFFFF">
+                    <h3></h3>
+                    <div class="login-logo text-center mt-lg-5"> <img src="../Content/images/logotipo_demension_v.png" alt="" /> </div>
+                </div>
+                <div class="col-md-4 login-form-2" style="background-color:#FFFFFF ">
+                    <h3></h3>
+                    <div class="form-group">
+                        @using (Html.BeginForm("Login", "Inicio", FormMethod.Post))
+                        {
+                            <div class="form-group">
+
+
+                                @Html.TextBoxFor(x => x.Email, new { @class = "form-control mt-3", placeholder = " Email", autofocus = "autofocus" })
+                                @Html.ValidationMessageFor(x => x.Email, null, new { @class = "text-danger" })
+                            </div>
+                            <div class="form-group">
+
+
+                                @Html.PasswordFor(x => x.Password, new { @class = "form-control", placeholder = "Password " })
+
+                                @Html.ValidationMessageFor(x => x.Password, null, new { @class = "text-danger" })
+                                <br />
+                            </div>
+                            <div class="form-group text-center">
+                                <button class="btn btn-primary  w-50 text-white border-0 mt-3 rounded-pill" type="submit" value="Login">
+                                    Enviar
+                                </button>
+                            </div>
+
+                            <br />
+
+                        }
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+</body>
+
+<script src="../Scripts/js/jquery-3.3.1.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="../Scripts/js/popper.min.js"></script>
+<script src="../Scripts/js/bootstrap-4.3.1.js"></script>
+<script>
+    $(document).ready(function () {
+      var error = @Html.Raw(Json.Encode(ViewBag.error));
+    if (error != null) {
+        $('#labelMessage').text(error)
+            $('#myModal').modal('show');
+        }
+    });
+</script>
+
+
+</html>
+
+

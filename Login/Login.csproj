@@ -1,0 +1,622 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E3411BC7-A6B2-46BE-81FB-02A7ED079321}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Login</RootNamespace>
+    <AssemblyName>Login</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ClaseRutinas, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ClaseRutinas\bin\Debug\ClaseRutinas.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+    </Reference>
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.4\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.4\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.4\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.4\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.4\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.4\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.11.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.6.0\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>..\packages\Antlr.3.5.0.2\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\InicioController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\LoginViewModel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\WS_Acceso\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\WS_Producto_Dimension\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\WS_Producto_FTCapital\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\css\bootstrap-4.3.1.css" />
+    <Content Include="Content\css\estilos_.css" />
+    <Content Include="Content\images\82.png" />
+    <Content Include="Content\images\back_2.png" />
+    <Content Include="Content\images\back_3png.png" />
+    <Content Include="Content\images\logo-dimension_b.png" />
+    <Content Include="Content\images\logo-dimension_p.png" />
+    <Content Include="Content\images\logotipo demension_ 1.png" />
+    <Content Include="Content\images\logotipo demension_.png" />
+    <Content Include="Content\images\logotipo_b.png" />
+    <Content Include="Content\images\logotipo_demension_v.png" />
+    <Content Include="Content\open-iconic-master\font\css\open-iconic-bootstrap.css" />
+    <Content Include="Content\open-iconic-master\font\css\open-iconic-bootstrap.min.css" />
+    <Content Include="Content\open-iconic-master\font\css\open-iconic-foundation.css" />
+    <Content Include="Content\open-iconic-master\font\css\open-iconic-foundation.min.css" />
+    <Content Include="Content\open-iconic-master\font\css\open-iconic.css" />
+    <Content Include="Content\open-iconic-master\font\css\open-iconic.min.css" />
+    <Content Include="Content\open-iconic-master\font\fonts\open-iconic.svg" />
+    <Content Include="Content\open-iconic-master\png\account-login-2x.png" />
+    <Content Include="Content\open-iconic-master\png\account-login-3x.png" />
+    <Content Include="Content\open-iconic-master\png\account-login-4x.png" />
+    <Content Include="Content\open-iconic-master\png\account-login-6x.png" />
+    <Content Include="Content\open-iconic-master\png\account-login-8x.png" />
+    <Content Include="Content\open-iconic-master\png\account-login.png" />
+    <Content Include="Content\open-iconic-master\png\account-logout-2x.png" />
+    <Content Include="Content\open-iconic-master\png\account-logout-3x.png" />
+    <Content Include="Content\open-iconic-master\png\account-logout-4x.png" />
+    <Content Include="Content\open-iconic-master\png\account-logout-6x.png" />
+    <Content Include="Content\open-iconic-master\png\account-logout-8x.png" />
+    <Content Include="Content\open-iconic-master\png\account-logout.png" />
+    <Content Include="Content\open-iconic-master\png\action-redo-2x.png" />
+    <Content Include="Content\open-iconic-master\png\action-redo-3x.png" />
+    <Content Include="Content\open-iconic-master\png\action-redo-4x.png" />
+    <Content Include="Content\open-iconic-master\png\action-redo-6x.png" />
+    <Content Include="Content\open-iconic-master\png\action-redo-8x.png" />
+    <Content Include="Content\open-iconic-master\png\action-redo.png" />
+    <Content Include="Content\open-iconic-master\png\action-undo-2x.png" />
+    <Content Include="Content\open-iconic-master\png\action-undo-3x.png" />
+    <Content Include="Content\open-iconic-master\png\action-undo-4x.png" />
+    <Content Include="Content\open-iconic-master\png\action-undo-6x.png" />
+    <Content Include="Content\open-iconic-master\png\action-undo-8x.png" />
+    <Content Include="Content\open-iconic-master\png\action-undo.png" />
+    <Content Include="Content\open-iconic-master\png\align-center-2x.png" />
+    <Content Include="Content\open-iconic-master\png\align-center-3x.png" />
+    <Content Include="Content\open-iconic-master\png\align-center-4x.png" />
+    <Content Include="Content\open-iconic-master\png\align-center-6x.png" />
+    <Content Include="Content\open-iconic-master\png\align-center-8x.png" />
+    <Content Include="Content\open-iconic-master\png\align-center.png" />
+    <Content Include="Content\open-iconic-master\png\align-left-2x.png" />
+    <Content Include="Content\open-iconic-master\png\align-left-3x.png" />
+    <Content Include="Content\open-iconic-master\png\align-left-4x.png" />
+    <Content Include="Content\open-iconic-master\png\align-left-6x.png" />
+    <Content Include="Content\open-iconic-master\png\align-left-8x.png" />
+    <Content Include="Content\open-iconic-master\png\align-left.png" />
+    <Content Include="Content\open-iconic-master\png\align-right-2x.png" />
+    <Content Include="Content\open-iconic-master\png\align-right-3x.png" />
+    <Content Include="Content\open-iconic-master\png\align-right-4x.png" />
+    <Content Include="Content\open-iconic-master\png\align-right-6x.png" />
+    <Content Include="Content\open-iconic-master\png\align-right-8x.png" />
+    <Content Include="Content\open-iconic-master\png\align-right.png" />
+    <Content Include="Content\open-iconic-master\png\aperture-2x.png" />
+    <Content Include="Content\open-iconic-master\png\aperture-3x.png" />
+    <Content Include="Content\open-iconic-master\png\aperture-4x.png" />
+    <Content Include="Content\open-iconic-master\png\aperture-6x.png" />
+    <Content Include="Content\open-iconic-master\png\aperture-8x.png" />
+    <Content Include="Content\open-iconic-master\png\aperture.png" />
+    <Content Include="Content\open-iconic-master\png\arrow-bottom-2x.png" />
+    <Content Include="Content\open-iconic-master\png\arrow-bottom-3x.png" />
+    <Content Include="Content\open-iconic-master\png\arrow-bottom-4x.png" />
+    <Content Include="Content\open-iconic-master\png\arrow-bottom-6x.png" />
+    <Content Include="Content\open-iconic-master\png\arrow-bottom-8x.png" />
+    <Content Include="Content\open-iconic-master\png\arrow-bottom.png" />
+    <Content Include="Content\open-iconic-master\png\arrow-circle-bottom-2x.png" />
+    <Content Include="Content\open-iconic-master\png\arrow-circle-bottom-3x.png" />
+    <Content Include="Content\open-iconic-master\png\arrow-circle-bottom-4x.png" />
+    <Content Include="Content\open-iconic-master\png\arrow-circle-bottom-6x.png" />
+    <Content Include="Content\open-iconic-master\png\arrow-circle-bottom-8x.png" />
+    <Content Include="Content\open-iconic-master\png\arrow-circle-bottom.png" />
+    <Content Include="Content\open-iconic-master\png\arrow-circle-left-2x.png" />
+    <Content Include="Content\open-iconic-master\png\arrow-circle-left-3x.png" />
+    <Content Include="Content\open-iconic-master\png\arrow-circle-left-4x.png" />
+    <Content Include="Content\open-iconic-master\png\arrow-circle-left-6x.png" />
+    <Content Include="Content\open-iconic-master\png\arrow-circle-left-8x.png" />
+    <Content Include="Content\open-iconic-master\png\arrow-circle-left.png" />
+    <Content Include="Content\open-iconic-master\png\arrow-circle-right-2x.png" />
+    <Content Include="Content\open-iconic-master\png\arrow-circle-right-3x.png" />
+    <Content Include="Content\open-iconic-master\png\arrow-circle-right-4x.png" />
+    <Content Include="Content\open-iconic-master\png\arrow-circle-right-6x.png" />
+    <Content Include="Content\open-iconic-master\png\arrow-circle-right-8x.png" />
+    <Content Include="Content\open-iconic-master\png\arrow-circle-right.png" />
+    <Content Include="Content\open-iconic-master\png\arrow-circle-top-2x.png" />
+    <Content Include="Content\open-iconic-master\png\arrow-circle-top-3x.png" />
+    <Content Include="Content\open-iconic-master\png\arrow-circle-top-4x.png" />
+    <Content Include="Content\open-iconic-master\png\arrow-circle-top-6x.png" />
+    <Content Include="Content\open-iconic-master\png\arrow-circle-top-8x.png" />
+    <Content Include="Content\open-iconic-master\png\arrow-circle-top.png" />
+    <Content Include="Content\open-iconic-master\png\arrow-left-2x.png" />
+    <Content Include="Content\open-iconic-master\png\arrow-left-3x.png" />
+    <Content Include="Content\open-iconic-master\png\arrow-left-4x.png" />
+    <Content Include="Content\open-iconic-master\png\arrow-left-6x.png" />
+    <Content Include="Content\open-iconic-master\png\arrow-left-8x.png" />
+    <Content Include="Content\open-iconic-master\png\arrow-left.png" />
+    <Content Include="Content\open-iconic-master\png\arrow-right-2x.png" />
+    <Content Include="Content\open-iconic-master\png\arrow-right-3x.png" />
+    <Content Include="Content\open-iconic-master\png\arrow-right-4x.png" />
+    <Content Include="Content\open-iconic-master\sprite\open-iconic.html" />
+    <Content Include="Content\open-iconic-master\sprite\open-iconic.min.svg" />
+    <Content Include="Content\open-iconic-master\sprite\open-iconic.svg" />
+    <Content Include="Content\open-iconic-master\sprite\sprite.html" />
+    <Content Include="Content\open-iconic-master\sprite\sprite.min.svg" />
+    <Content Include="Content\open-iconic-master\sprite\sprite.svg" />
+    <Content Include="Content\open-iconic-master\svg\account-login.svg" />
+    <Content Include="Content\open-iconic-master\svg\account-logout.svg" />
+    <Content Include="Content\open-iconic-master\svg\action-redo.svg" />
+    <Content Include="Content\open-iconic-master\svg\action-undo.svg" />
+    <Content Include="Content\open-iconic-master\svg\align-center.svg" />
+    <Content Include="Content\open-iconic-master\svg\align-left.svg" />
+    <Content Include="Content\open-iconic-master\svg\align-right.svg" />
+    <Content Include="Content\open-iconic-master\svg\aperture.svg" />
+    <Content Include="Content\open-iconic-master\svg\arrow-bottom.svg" />
+    <Content Include="Content\open-iconic-master\svg\arrow-circle-bottom.svg" />
+    <Content Include="Content\open-iconic-master\svg\arrow-circle-left.svg" />
+    <Content Include="Content\open-iconic-master\svg\arrow-circle-right.svg" />
+    <Content Include="Content\open-iconic-master\svg\arrow-circle-top.svg" />
+    <Content Include="Content\open-iconic-master\svg\arrow-left.svg" />
+    <Content Include="Content\open-iconic-master\svg\arrow-right.svg" />
+    <Content Include="Content\open-iconic-master\svg\arrow-thick-bottom.svg" />
+    <Content Include="Content\open-iconic-master\svg\arrow-thick-left.svg" />
+    <Content Include="Content\open-iconic-master\svg\arrow-thick-right.svg" />
+    <Content Include="Content\open-iconic-master\svg\arrow-thick-top.svg" />
+    <Content Include="Content\open-iconic-master\svg\arrow-top.svg" />
+    <Content Include="Content\open-iconic-master\svg\audio-spectrum.svg" />
+    <Content Include="Content\open-iconic-master\svg\audio.svg" />
+    <Content Include="Content\open-iconic-master\svg\badge.svg" />
+    <Content Include="Content\open-iconic-master\svg\ban.svg" />
+    <Content Include="Content\open-iconic-master\svg\bar-chart.svg" />
+    <Content Include="Content\open-iconic-master\svg\basket.svg" />
+    <Content Include="Content\open-iconic-master\svg\battery-empty.svg" />
+    <Content Include="Content\open-iconic-master\svg\battery-full.svg" />
+    <Content Include="Content\open-iconic-master\svg\beaker.svg" />
+    <Content Include="Content\open-iconic-master\svg\bell.svg" />
+    <Content Include="Content\open-iconic-master\svg\bluetooth.svg" />
+    <Content Include="Content\open-iconic-master\svg\bold.svg" />
+    <Content Include="Content\open-iconic-master\svg\bolt.svg" />
+    <Content Include="Content\open-iconic-master\svg\book.svg" />
+    <Content Include="Content\open-iconic-master\svg\bookmark.svg" />
+    <Content Include="Content\open-iconic-master\svg\box.svg" />
+    <Content Include="Content\open-iconic-master\svg\briefcase.svg" />
+    <Content Include="Content\open-iconic-master\svg\british-pound.svg" />
+    <Content Include="Content\open-iconic-master\svg\browser.svg" />
+    <Content Include="Content\open-iconic-master\svg\brush.svg" />
+    <Content Include="Content\open-iconic-master\svg\bug.svg" />
+    <Content Include="Content\open-iconic-master\svg\bullhorn.svg" />
+    <Content Include="Content\open-iconic-master\svg\calculator.svg" />
+    <Content Include="Content\open-iconic-master\svg\calendar.svg" />
+    <Content Include="Content\open-iconic-master\svg\camera-slr.svg" />
+    <Content Include="Content\open-iconic-master\svg\caret-bottom.svg" />
+    <Content Include="Content\open-iconic-master\svg\caret-left.svg" />
+    <Content Include="Content\open-iconic-master\svg\caret-right.svg" />
+    <Content Include="Content\open-iconic-master\svg\caret-top.svg" />
+    <Content Include="Content\open-iconic-master\svg\cart.svg" />
+    <Content Include="Content\open-iconic-master\svg\chat.svg" />
+    <Content Include="Content\open-iconic-master\svg\check.svg" />
+    <Content Include="Content\open-iconic-master\svg\chevron-bottom.svg" />
+    <Content Include="Content\open-iconic-master\svg\chevron-left.svg" />
+    <Content Include="Content\open-iconic-master\svg\chevron-right.svg" />
+    <Content Include="Content\open-iconic-master\svg\chevron-top.svg" />
+    <Content Include="Content\open-iconic-master\svg\circle-check.svg" />
+    <Content Include="Content\open-iconic-master\svg\circle-x.svg" />
+    <Content Include="Content\open-iconic-master\svg\clipboard.svg" />
+    <Content Include="Content\open-iconic-master\svg\clock.svg" />
+    <Content Include="Content\open-iconic-master\svg\cloud-download.svg" />
+    <Content Include="Content\open-iconic-master\svg\cloud-upload.svg" />
+    <Content Include="Content\open-iconic-master\svg\cloud.svg" />
+    <Content Include="Content\open-iconic-master\svg\cloudy.svg" />
+    <Content Include="Content\open-iconic-master\svg\code.svg" />
+    <Content Include="Content\open-iconic-master\svg\cog.svg" />
+    <Content Include="Content\open-iconic-master\svg\collapse-down.svg" />
+    <Content Include="Content\open-iconic-master\svg\collapse-left.svg" />
+    <Content Include="Content\open-iconic-master\svg\collapse-right.svg" />
+    <Content Include="Content\open-iconic-master\svg\collapse-up.svg" />
+    <Content Include="Content\open-iconic-master\svg\command.svg" />
+    <Content Include="Content\open-iconic-master\svg\comment-square.svg" />
+    <Content Include="Content\open-iconic-master\svg\compass.svg" />
+    <Content Include="Content\open-iconic-master\svg\contrast.svg" />
+    <Content Include="Content\open-iconic-master\svg\copywriting.svg" />
+    <Content Include="Content\open-iconic-master\svg\credit-card.svg" />
+    <Content Include="Content\open-iconic-master\svg\crop.svg" />
+    <Content Include="Content\open-iconic-master\svg\dashboard.svg" />
+    <Content Include="Content\open-iconic-master\svg\data-transfer-download.svg" />
+    <Content Include="Content\open-iconic-master\svg\data-transfer-upload.svg" />
+    <Content Include="Content\open-iconic-master\svg\delete.svg" />
+    <Content Include="Content\open-iconic-master\svg\dial.svg" />
+    <Content Include="Content\open-iconic-master\svg\document.svg" />
+    <Content Include="Content\open-iconic-master\svg\dollar.svg" />
+    <Content Include="favicon.ico" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Global.asax" />
+    <Content Include="Content\Site.css" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Content\open-iconic-master\.gitignore" />
+    <Content Include="Content\open-iconic-master\bower.json" />
+    <Content Include="Content\open-iconic-master\FONT-LICENSE" />
+    <Content Include="Content\open-iconic-master\font\css\open-iconic-bootstrap.less" />
+    <Content Include="Content\open-iconic-master\font\css\open-iconic-bootstrap.scss" />
+    <Content Include="Content\open-iconic-master\font\css\open-iconic-bootstrap.styl" />
+    <Content Include="Content\open-iconic-master\font\css\open-iconic-foundation.less" />
+    <Content Include="Content\open-iconic-master\font\css\open-iconic-foundation.scss" />
+    <Content Include="Content\open-iconic-master\font\css\open-iconic-foundation.styl" />
+    <Content Include="Content\open-iconic-master\font\css\open-iconic.less" />
+    <Content Include="Content\open-iconic-master\font\css\open-iconic.scss" />
+    <Content Include="Content\open-iconic-master\font\css\open-iconic.styl" />
+    <Content Include="Content\open-iconic-master\font\fonts\open-iconic.eot" />
+    <Content Include="Content\open-iconic-master\font\fonts\open-iconic.otf" />
+    <Content Include="Content\open-iconic-master\font\fonts\open-iconic.ttf" />
+    <Content Include="Content\open-iconic-master\font\fonts\open-iconic.woff" />
+    <Content Include="Content\open-iconic-master\ICON-LICENSE" />
+    <Content Include="Content\open-iconic-master\package.json" />
+    <Content Include="Content\open-iconic-master\README.md" />
+    <Content Include="Content\open-iconic-master\webp\account-login-2x.webp" />
+    <Content Include="Content\open-iconic-master\webp\account-login-3x.webp" />
+    <Content Include="Content\open-iconic-master\webp\account-login-4x.webp" />
+    <Content Include="Content\open-iconic-master\webp\account-login-6x.webp" />
+    <Content Include="Content\open-iconic-master\webp\account-login-8x.webp" />
+    <Content Include="Content\open-iconic-master\webp\account-login.webp" />
+    <Content Include="Content\open-iconic-master\webp\account-logout-2x.webp" />
+    <Content Include="Content\open-iconic-master\webp\account-logout-3x.webp" />
+    <Content Include="Content\open-iconic-master\webp\account-logout-4x.webp" />
+    <Content Include="Content\open-iconic-master\webp\account-logout-6x.webp" />
+    <Content Include="Content\open-iconic-master\webp\account-logout-8x.webp" />
+    <Content Include="Content\open-iconic-master\webp\account-logout.webp" />
+    <Content Include="Content\open-iconic-master\webp\action-redo-2x.webp" />
+    <Content Include="Content\open-iconic-master\webp\action-redo-3x.webp" />
+    <Content Include="Content\open-iconic-master\webp\action-redo-4x.webp" />
+    <Content Include="Content\open-iconic-master\webp\action-redo-6x.webp" />
+    <Content Include="Content\open-iconic-master\webp\action-redo-8x.webp" />
+    <Content Include="Content\open-iconic-master\webp\action-redo.webp" />
+    <Content Include="Content\open-iconic-master\webp\action-undo-2x.webp" />
+    <Content Include="Content\open-iconic-master\webp\action-undo-3x.webp" />
+    <Content Include="Content\open-iconic-master\webp\action-undo-4x.webp" />
+    <Content Include="Content\open-iconic-master\webp\action-undo-6x.webp" />
+    <Content Include="Content\open-iconic-master\webp\action-undo-8x.webp" />
+    <Content Include="Content\open-iconic-master\webp\action-undo.webp" />
+    <Content Include="Content\open-iconic-master\webp\align-center-2x.webp" />
+    <Content Include="Content\open-iconic-master\webp\align-center-3x.webp" />
+    <Content Include="Content\open-iconic-master\webp\align-center-4x.webp" />
+    <Content Include="Content\open-iconic-master\webp\align-center-6x.webp" />
+    <Content Include="Content\open-iconic-master\webp\align-center-8x.webp" />
+    <Content Include="Content\open-iconic-master\webp\align-center.webp" />
+    <Content Include="Content\open-iconic-master\webp\align-left-2x.webp" />
+    <Content Include="Content\open-iconic-master\webp\align-left-3x.webp" />
+    <Content Include="Content\open-iconic-master\webp\align-left-4x.webp" />
+    <Content Include="Content\open-iconic-master\webp\align-left-6x.webp" />
+    <Content Include="Content\open-iconic-master\webp\align-left-8x.webp" />
+    <Content Include="Content\open-iconic-master\webp\align-left.webp" />
+    <Content Include="Content\open-iconic-master\webp\align-right-2x.webp" />
+    <Content Include="Content\open-iconic-master\webp\align-right-3x.webp" />
+    <Content Include="Content\open-iconic-master\webp\align-right-4x.webp" />
+    <Content Include="Content\open-iconic-master\webp\align-right-6x.webp" />
+    <Content Include="Content\open-iconic-master\webp\align-right-8x.webp" />
+    <Content Include="Content\open-iconic-master\webp\align-right.webp" />
+    <Content Include="Content\open-iconic-master\webp\aperture-2x.webp" />
+    <Content Include="Content\open-iconic-master\webp\aperture-3x.webp" />
+    <Content Include="Content\open-iconic-master\webp\aperture-4x.webp" />
+    <Content Include="Content\open-iconic-master\webp\aperture-6x.webp" />
+    <Content Include="Content\open-iconic-master\webp\aperture-8x.webp" />
+    <Content Include="Content\open-iconic-master\webp\aperture.webp" />
+    <Content Include="Content\open-iconic-master\webp\arrow-bottom-2x.webp" />
+    <Content Include="Content\open-iconic-master\webp\arrow-bottom-3x.webp" />
+    <Content Include="Content\open-iconic-master\webp\arrow-bottom-4x.webp" />
+    <Content Include="Content\open-iconic-master\webp\arrow-bottom-6x.webp" />
+    <Content Include="Content\open-iconic-master\webp\arrow-bottom-8x.webp" />
+    <Content Include="Content\open-iconic-master\webp\arrow-bottom.webp" />
+    <Content Include="Content\open-iconic-master\webp\arrow-circle-bottom-2x.webp" />
+    <Content Include="Content\open-iconic-master\webp\arrow-circle-bottom-3x.webp" />
+    <Content Include="Content\open-iconic-master\webp\arrow-circle-bottom-4x.webp" />
+    <Content Include="Content\open-iconic-master\webp\arrow-circle-bottom-6x.webp" />
+    <Content Include="Content\open-iconic-master\webp\arrow-circle-bottom-8x.webp" />
+    <Content Include="Content\open-iconic-master\webp\arrow-circle-bottom.webp" />
+    <Content Include="Content\open-iconic-master\webp\arrow-circle-left-2x.webp" />
+    <Content Include="Content\open-iconic-master\webp\arrow-circle-left-3x.webp" />
+    <Content Include="Content\open-iconic-master\webp\arrow-circle-left-4x.webp" />
+    <Content Include="Content\open-iconic-master\webp\arrow-circle-left-6x.webp" />
+    <Content Include="Content\open-iconic-master\webp\arrow-circle-left-8x.webp" />
+    <Content Include="Content\open-iconic-master\webp\arrow-circle-left.webp" />
+    <Content Include="Content\open-iconic-master\webp\arrow-circle-right-2x.webp" />
+    <Content Include="Content\open-iconic-master\webp\arrow-circle-right-3x.webp" />
+    <Content Include="Content\open-iconic-master\webp\arrow-circle-right-4x.webp" />
+    <Content Include="Content\open-iconic-master\webp\arrow-circle-right-6x.webp" />
+    <Content Include="Content\open-iconic-master\webp\arrow-circle-right-8x.webp" />
+    <Content Include="Content\open-iconic-master\webp\arrow-circle-right.webp" />
+    <Content Include="Content\open-iconic-master\webp\arrow-circle-top-2x.webp" />
+    <Content Include="Content\open-iconic-master\webp\arrow-circle-top-3x.webp" />
+    <Content Include="Content\open-iconic-master\webp\arrow-circle-top-4x.webp" />
+    <Content Include="Content\open-iconic-master\webp\arrow-circle-top-6x.webp" />
+    <Content Include="Content\open-iconic-master\webp\arrow-circle-top-8x.webp" />
+    <Content Include="Content\open-iconic-master\webp\arrow-circle-top.webp" />
+    <Content Include="Content\open-iconic-master\webp\arrow-left-2x.webp" />
+    <Content Include="Content\open-iconic-master\webp\arrow-left-3x.webp" />
+    <Content Include="Content\open-iconic-master\webp\arrow-left-4x.webp" />
+    <Content Include="Content\open-iconic-master\webp\arrow-left-6x.webp" />
+    <Content Include="Content\open-iconic-master\webp\arrow-left-8x.webp" />
+    <Content Include="Content\open-iconic-master\webp\arrow-left.webp" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Scripts\jquery-3.3.1.intellisense.js" />
+    <Content Include="Scripts\jquery-3.3.1.js" />
+    <Content Include="Scripts\jquery-3.3.1.min.js" />
+    <Content Include="Scripts\jquery-3.3.1.slim.js" />
+    <Content Include="Scripts\jquery-3.3.1.slim.min.js" />
+    <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\js\bootstrap-4.3.1.js" />
+    <Content Include="Scripts\js\jav.js" />
+    <Content Include="Scripts\js\jquery-3.3.1.min.js" />
+    <Content Include="Scripts\js\js - copia.js" />
+    <Content Include="Scripts\js\js.js" />
+    <Content Include="Scripts\js\popper.min.js" />
+    <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Web References\WS_Acceso\MENSAJERES_Type.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </Content>
+    <Content Include="Views\Inicio\Login.cshtml" />
+    <None Include="Web References\WS_Acceso\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\WS_Acceso\WS_Acceso.disco" />
+    <Content Include="Web References\WS_Producto_Dimension\MENSAJERES_Type.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </Content>
+    <None Include="Web References\WS_Producto_Dimension\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\WS_Producto_Dimension\WS_Producto.disco" />
+    <Content Include="Web References\WS_Producto_FTCapital\MENSAJERES_Type.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </Content>
+    <None Include="Web References\WS_Producto_FTCapital\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\WS_Producto_FTCapital\WS_Producto_FTCapital.disco" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Views\Web.config" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\Error.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Inicio\Index.cshtml" />
+    <None Include="Web References\WS_Acceso\WS_Acceso.wsdl" />
+    <None Include="Web References\WS_Producto_Dimension\WS_Producto.wsdl" />
+    <None Include="Web References\WS_Producto_FTCapital\WS_Producto_FTCapital.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap-theme.min.css.map" />
+    <Content Include="Content\bootstrap-theme.css.map" />
+    <None Include="packages.config" />
+    <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
+    <Content Include="Scripts\jquery-3.3.1.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://localhost:51672/WS_Producto.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\WS_Producto_Dimension\</RelPath>
+      <UpdateFromURL>http://localhost:51672/WS_Producto.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>Login_WS_Producto_Dimension_WS_Producto</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://localhost:54317/WS_Producto_FTCapital.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\WS_Producto_FTCapital\</RelPath>
+      <UpdateFromURL>http://localhost:54317/WS_Producto_FTCapital.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>Login_WS_Producto_FTCapital_WS_Producto_FTCapital</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://localhost:57100/WS_Acceso.asmx%3fop=BuscarCliente">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\WS_Acceso\</RelPath>
+      <UpdateFromURL>http://localhost:57100/WS_Acceso.asmx%3fop=BuscarCliente</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>Login_WS_Acceso_WS_Acceso</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>51100</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:51100/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Este proyecto hace referencia a los paquetes NuGet que faltan en este equipo. Use la restauración de paquetes NuGet para descargarlos. Para obtener más información, consulte http://go.microsoft.com/fwlink/?LinkID=322105. El archivo que falta es {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+</Project>
